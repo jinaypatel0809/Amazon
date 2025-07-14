@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Prime Video Banner with Background Video</title>
+  <link rel="stylesheet" href="./style1.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="left">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Prime_Video.png" alt="Prime Video" class="logo">
+      <nav>
+        <a href="#">Home</a>
+        <a href="#" class="active">Movies</a>
+        <a href="#">TV Shows</a>
+        <a href="#">Live TV</a>
+      </nav>
+    </div>
+    <div class="right">
+      <a href="#">Subscriptions</a>
+      <i class="icon">🔍</i>
+      <span>EN</span>
+      <i class="icon">☰</i>
+      <i class="icon">👤</i>
+      <button class="join-btn">Join Prime</button>
+    </div>
+  </header>
+
+  <section class="banner">
+    <!-- 🔁 Background video -->
+    <video autoplay muted loop playsinline class="bg-video">
+      <source src="./videoplayback.webm" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <!-- 🔤 Banner text -->
+    <div class="banner-text">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Prime_Video.png" alt="Prime Logo" class="prime-logo">
+      <h1 class="title">CRAZ<span class="x-cross">X</span>Y</h1>
+      <p class="rank">#3 in India</p>
+      <p class="description">
+        Abhimanyu Sood. Good surgeon. Bad father.<br>
+        Questionable human being. And he is having the...
+      </p>
+      <div class="buttons">
+        <button class="watch-btn">Join Prime<br><span>Watch now</span></button>
+        <button class="icon-btn">+</button>
+        <button class="icon-btn">ⓘ</button>
+      </div>
+      <p class="membership">🔒 Watch with a Prime membership</p>
+    </div>
+  </section>
+
+  <div class="movie-section">
+    <div class="header">
+      <h2>Movies</h2>
+      <div class="links">
+        <span class="active">Top movies</span>
+        <a href="#">See more &gt;</a>
+      </div>
+    </div>
+
+    <div class="movie-carousel">
+      <div class="movie-card">
+        <img src="https://i.ibb.co/6ntJ9pN/movie1.jpg" alt="Movie 1">
+        <span class="badge">TOP 10</span>
+      </div>
+
+      <div class="movie-card">
+        <img src="https://i.ibb.co/XkM6TwW/movie2.jpg" alt="Movie 2">
+        <span class="badge new">NEW MOVIE</span>
+      </div>
+
+      <div class="movie-card">
+        <img src="https://i.ibb.co/xsHR6Rc/movie3.jpg" alt="Movie 3">
+      </div>
+
+      <div class="movie-card">
+        <img src="https://i.ibb.co/NVrDPMy/movie4.jpg" alt="Movie 4">
+      </div>
+
+      <div class="movie-card">
+        <img src="https://i.ibb.co/YT9vsWv/movie5.jpg" alt="Movie 5">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
